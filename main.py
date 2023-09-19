@@ -3,7 +3,7 @@ import openai
 import os
 
 os.environ['OPENAI_API_KEY'] = ''
-openai.api_key = ''
+openai.api_key = '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'
 #return everything that the user inputs.
 
 @cl.on_message
@@ -18,4 +18,4 @@ async def main(message: str):
     )
 
 
-    await cl.Message(content = str(response)).send()
+    await cl.Message(content = f"{response['choices'][0]['message']['content']}",).send()
