@@ -3,8 +3,8 @@ import openai
 import os
 from langchain import PromptTemplate, OpenAI, LLMChain
 
-os.environ['OPENAI_API_KEY'] = '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'
-openai.api_key = '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'
+os.environ['OPENAI_API_KEY'] = ''
+openai.api_key = ''
 
 template = """Question: {question}
 Answer: Let's think step by step."""

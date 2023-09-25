@@ -3,7 +3,7 @@ import openai
 import os
 
 os.environ['OPENAI_API_KEY'] = ''
-openai.api_key = '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'
+openai.api_key = ''
 #return everything that the user inputs.
 
 @cl.on_message
