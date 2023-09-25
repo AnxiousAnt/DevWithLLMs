@@ -19,4 +19,4 @@ async def main(message: str):
 
 
     await cl.Message(content = f"{response['choices'][0]['message']['content']}",).send()
-    df
+    
