@@ -12,7 +12,7 @@ from langchain.chat_models import ChatOpenAI
 import chainlit as cl
 from chainlit.types import AskFileResponse
 
-os.environ['OPENAI_API_KEY'] = ''
+os.environ['OPENAI_API_KEY'] = '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'
 
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
