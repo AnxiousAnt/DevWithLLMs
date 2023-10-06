@@ -7,7 +7,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.agents import load_tools, initialize_agent, AgentType
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
 @cl.on_chat_start
 def start():
